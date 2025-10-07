@@ -12,6 +12,25 @@ points = np.random.randint(1,100,size=(4,2))
 #  ,[18, 79]
 #  ,[53, 93]])
 
+# points = np.array([[14,95]
+#  ,[31,  9]
+#  ,[44, 89]
+#  ,[16, 35]
+#  ,[14,95]])
+
+points = np.array([[42, 72]
+ ,[93, 20]
+ ,[ 4, 22]
+ ,[ 3, 79]])
+
+# points = np.array([[1.0  , 0.0]
+#   ,[2.0   ,1.0]
+#   ,[1.0   ,3.0]
+#   ,[0.0   ,1.0]
+#  ,[-1.0  , 1.5]
+#  ,[-2.0 , -1.0]
+#   ,[0.5,  -2.0]
+#   ,[1.0,   0.0]])
 def volume_of_polygon(points)->float:
 
 	#Make the polygon closed if not already
